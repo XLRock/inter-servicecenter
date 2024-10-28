@@ -21,7 +21,7 @@ const MainNavbar = () => {
         <div>
             <Navbar expand="lg" className="bg-body-tertiary">
               <Container fluid>
-                <Navbar.Brand href="https://fajardo.inter.edu" target="_blank"><img src={NavLogo} height={70} /></Navbar.Brand>
+                <Navbar.Brand href="http://localhost:3000/" target="_blank"><img src={NavLogo} height={70} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                   <Nav
@@ -110,10 +110,15 @@ const MainNavbar = () => {
                   </Nav>
                   {/*<i className="bi bi-calendar-check-fill nav-link"></i>
                   <Nav.Item className="nav-link mx-2">{fullDate}</Nav.Item>*/}
-                  <Nav.Link className='d-flex' href="https://fajardo.inter.edu" target="_blank">
-                    <i className="bi bi-box-arrow-up-right me-1"></i>
-                        Ir a fajardo.inter.edu
-                  </Nav.Link>
+                 <Button 
+                        className="d-flex align-items-center" 
+                        href="https://fajardo.inter.edu" 
+                        target="_blank" 
+                        variant="success"
+                    >
+                        <i className="bi bi-house me-1"></i>
+                        Pagina Principal
+                    </Button>
                 </Navbar.Collapse>
               </Container>
             </Navbar>

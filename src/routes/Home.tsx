@@ -67,7 +67,8 @@ const Home = () => {
                 </Col>
               </Row>
             </Container>
-
+              {/*Calendar*/}
+              {/* 
             <Container className="mt-3 d-flex justify-content-center">
               <ListGroup className="" horizontal>
                 <ListGroup.Item variant="dark">
@@ -126,7 +127,7 @@ const Home = () => {
                   <p>No hay eventos.</p>
                 </ListGroup.Item>
               </ListGroup>
-            </Container>
+            </Container> */}
 
             <Footer />
         </div>

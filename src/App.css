@@ -103,6 +103,7 @@
 
 .main-post img {
   width: 100%; /* Makes the image responsive and full-width of the container */
+  max-width: 800px; /*To control Size*/
   height: auto; /* Maintains the aspect ratio */
   border-radius: 8px; /* Optional: adds rounded corners */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
@@ -117,12 +118,12 @@
 }
 
 .email-link, .phone-link {
-  color: green; /* Green color for links */
+  color: green; /*Color for links */
   text-decoration: none; /* Remove underline from the links */
   margin-left: 5px; /* Space between icon and text */
 }
 .organizer-icon, .email-icon, .phone-icon {
-  color: green; /* Green color for icons */
+  color: green; /*Color for icons */
   vertical-align: middle; /* Align icons with text */
   margin-right: 5px; /* Space between icon and text */
 }

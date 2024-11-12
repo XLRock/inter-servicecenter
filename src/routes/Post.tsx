@@ -8,8 +8,10 @@ import Announcement1 from "../components/images/sample-images/announcement1.png"
 import Announcement2 from "../components/images/sample-images/announcement2.png";
 import Announcement3 from "../components/images/sample-images/announcement3.png";
 import '../App.css';
+import { useNavigate } from "react-router-dom";
 
 const Post = () => {
+
     //Editable
     const [isEditing, setIsEditing] = useState(false);
     const [organizerName, setOrganizerName] = useState("Organizer Name");
@@ -17,6 +19,12 @@ const Post = () => {
     const [email, setEmail] = useState("example@example.com"); 
     const [mainImage, setMainImage] = useState(Announcement3);
     const [publishedDate, setPublishedDate] = useState("2023-10-15");
+    const navigate = useNavigate();
+
+    const handleEditRedirect = () => {
+       
+        navigate("/admin"); 
+    };
 
     // Edit
     const toggleEdit = () => setIsEditing(!isEditing);
@@ -98,7 +106,9 @@ const Post = () => {
                                 </>
                             )}
                         </div>
-                        <Button onClick={toggleEdit} variant="primary">
+
+                         {/* Edit Button*/}
+                        <Button onClick={handleEditRedirect} variant="primary">
                             {isEditing ? "Save Changes" : "Edit"}
                         </Button>
                     </Col>

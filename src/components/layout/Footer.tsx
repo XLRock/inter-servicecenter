@@ -32,11 +32,11 @@ const Footer = () => {
                         <h5>Enlaces de Interés</h5>
                         <div className='border-bottom mb-5 border-secondary'></div>
                         <ul className="list-unstyled">
-                          <li className="nav-item"><a className="text-white text-decoration-none" href="http://fajardo.inter.edu/directorio/instrucciones-red-wireless/" target="_blank">Instrucciones Red Wireless</a></li>
-                          <li className="nav-item"><a className="text-white text-decoration-none" href="http://fajardo.inter.edu/student-achievement/" target="_blank">Student Achievement</a></li>
-                          <li className="nav-item"><a className="text-white text-decoration-none" href="http://fajardo.inter.edu/acreditaciones/" target="_blank">Acreditaciones</a></li>
-                          <li className="nav-item"><a className="text-white text-decoration-none" href="https://uis.inter.edu/prod/" target="_blank">Banner 9 Prod</a></li>
-                          <li className="nav-item"><a className="text-white text-decoration-none" href="https://oficinas-centrales.kronos.net/wfc/logon" target="_blank">Kronos</a></li>
+                          <li className="nav-item mb-2"><a className="text-white text-decoration-none nav-dropdown-item" href="http://fajardo.inter.edu/directorio/instrucciones-red-wireless/" target="_blank">Instrucciones Red Wireless</a></li>
+                          <li className="nav-item mb-2"><a className="text-white text-decoration-none nav-dropdown-item" href="http://fajardo.inter.edu/student-achievement/" target="_blank">Student Achievement</a></li>
+                          <li className="nav-item mb-2"><a className="text-white text-decoration-none nav-dropdown-item" href="http://fajardo.inter.edu/acreditaciones/" target="_blank">Acreditaciones</a></li>
+                          <li className="nav-item mb-2"><a className="text-white text-decoration-none nav-dropdown-item" href="https://uis.inter.edu/prod/" target="_blank">Banner 9 Prod</a></li>
+                          <li className="nav-item mb-2"><a className="text-white text-decoration-none nav-dropdown-item" href="https://oficinas-centrales.kronos.net/wfc/logon" target="_blank">Kronos</a></li>
                         </ul>
                     </Container>
                 </Col>
